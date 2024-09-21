@@ -38,6 +38,14 @@ ol {
   list-style: none;
 }
 
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
 .content {
   display: flex;
   align-items: end;
